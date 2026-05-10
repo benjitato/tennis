@@ -1191,7 +1191,7 @@ function ConfigMissing() {
    ============================================================ */
 function StatsTableModal({bookings,onClose}) {
   const PERIODS=[{label:'1 mois',days:30},{label:'3 mois',days:90},{label:'6 mois',days:182},{label:'12 mois',days:365},{label:'Tout',days:0}];
-  const PAGE_SIZE=5;
+  const PAGE_SIZE=10;
   const [period,  setPeriod]  = useState(30);
   const [sortCol, setSortCol] = useState('date');
   const [sortDir, setSortDir] = useState('desc');
